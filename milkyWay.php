@@ -84,8 +84,8 @@
 
 <img src="images/mask.png" id="mask-bg"/>
 <div>
-    <img src="images/logo.png" id="logo"/>
-    <div id="logo-txt">星汉灿烂，若出其里</div>
+    <img src="images/logo.png" class="logo"/>
+    <div class="logo-txt">星汉灿烂，若出其里</div>
 </div>
 
 </body>

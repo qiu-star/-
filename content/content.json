@@ -1,0 +1,31 @@
+﻿{
+    "data": [ 
+	 {
+        	"song_name": "日食",
+        	"artist": "水哥",
+        	"lrc_name": "ri_shi"
+    	},{
+        	"song_name": "行星连珠",
+        	"artist": "水哥",
+        	"lrc_name": "xing_xing_lian_zhu"
+    	},{
+        	"song_name": "冲日",
+        	"artist": "水哥",
+       	"lrc_name": "chong_ri"
+    	},{
+        
+	"song_name": "凌日",
+        
+	"artist": "水哥",
+        
+	"lrc_name": "ling_ri"
+    
+	}, {
+        	"song_name": "合日",
+        	"artist": "水哥",
+        	"lrc_name": "he_ri"
+    	}
+
+	]
+
+}
