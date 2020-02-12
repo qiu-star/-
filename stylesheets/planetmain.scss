@@ -1,0 +1,123 @@
+//VARIABLES
+$main: #2A363B;
+$peach: #FF847C;
+$bloodPeach: #E84A5F;
+
+%menu-image{
+    @include size(50px);
+    display:block;
+    float: left;
+    transition: 0.3s;
+}
+    
+//-------------------MAIN GOODS------------------------------//
+    
+body{
+    background:black;
+}
+
+.container{
+    display:block;
+    overflow:hidden;
+    height:100%;
+    width:70px;
+    background:$main;
+    transition:0.2s;
+    left:0;
+    top:0;
+    position:absolute;
+    z-index:2;
+    
+    &:hover{
+        width:160px;
+    }
+}
+
+
+
+#preloader{
+    @include size(100%);
+    position: fixed;
+    display: block;
+    background: $main;
+    z-index: 999;
+    padding-top:60px;
+    margin-top: -30px;
+    margin-left: -5px;
+    padding-right: 60px;
+    transition: 0.5s;
+    cursor: wait;
+}
+
+#preloader.complete{
+    opacity: 0;
+}
+
+#preloader img{
+    @extend %centre;
+    margin-top: 500px;
+    @include size(40px);
+}
+
+
+.info-container{
+    display: block;
+    position: fixed;
+    width: 30%;
+    z-index: 2;
+    float: right;
+    right: 0;
+}
+
+.info-container p{
+    color: white;
+    max-width: 445px;
+    @include bodyCopy(22px, 400);
+}
+
+h1{
+    color: white;
+    font-size: 8em;
+    @include bodyCopy(8em, 400);
+}
+
+#zoom{
+    display: block;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    text-shadow: 0 1px $bloodPeach;
+    border: 2px solid $bloodPeach;
+    @include roundCorners(10px);
+    font-size: 16px;
+    transition:0.2s;
+    background:$peach;
+    cursor: pointer;
+
+    &:hover{
+        background: darken($peach, 5%);
+        border-bottom: 4px solid $bloodPeach;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

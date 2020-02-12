@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69f73923-7f92-4fae-85f7-7ab7cf721725" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/solarSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Jupiter.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Mercury.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Neptune.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Saturn.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Uranus.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/Venus.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/bgmusic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/chong_ri.lrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/chong_ri.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/earth.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/he_ri.lrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/he_ri.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/ling_ri.lrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/ling_ri.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/tai_yang_xi.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/xing_xing_lian_zhu.lrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/xing_xing_lian_zhu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/songs/yin_he_xi.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/24.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/bei.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/dong.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/houyisheri.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/kuafu.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/lianzhu.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/nan.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/nongli.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/taiyang.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/tiangan.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/weixing.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/videos/xi.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Mars_Bumpa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Mercury_Bumpa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Neptune1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Venus2-Bump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/earthmap1k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/earthspec1k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/elev_bump_16ka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jupitermap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lavatile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mars_1k_color.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/merc_diff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/moonbump1k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/moonmap1k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_nx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_nz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_py.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/s_pz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/saturnmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/saturnringcolora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uranusmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/uranusringcolour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/venusmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/earth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jupiter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mercury.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/neptune.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/postprocessing/postProcess.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/saturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/sun.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/uranus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/orbitcontrols.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/three.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/venus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/earth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/jupiter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/mars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/mercury.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/neptune.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/saturn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/sun.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/uranus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planet/venus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheets/planetmain.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheets/planetmain.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/createDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ProgressBarWars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/function.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/milkyWay.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/milkyWay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/playList.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/playList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/solarSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/solarSystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milkyWay.php" beforeDir="false" afterPath="$PROJECT_DIR$/milkyWay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solarSystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/solarSystem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/main.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/milkyWay.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/solarSystem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="318" column="42" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solarSystem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/milkyWay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planet/neptune.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planet/saturn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/neptune.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/planet/uranus.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/uranus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="172" column="38" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#2</find>
+      <find>data.forEach</find>
+      <find>toJudgePlanet</find>
+      <find>#</find>
+      <find>doMouseDown</find>
+      <find>$desc</find>
+      <find>关闭</find>
+      <find>images/</find>
+      <find>playVideo</find>
+      <find>conso</find>
+      <find>&lt;image</find>
+      <find>image</find>
+      <find>wind</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/earth.php" />
+        <option value="$PROJECT_DIR$/stylesheets/planet-css.css" />
+        <option value="$PROJECT_DIR$/stylesheets/planet-main.css" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/js/earth.js" />
+        <option value="$PROJECT_DIR$/js/sun.js" />
+        <option value="$PROJECT_DIR$/solarSystem.php" />
+        <option value="$PROJECT_DIR$/js/function.js" />
+        <option value="$PROJECT_DIR$/js/neptune.js" />
+        <option value="$PROJECT_DIR$/js/jupiter.js" />
+        <option value="$PROJECT_DIR$/js/mars.js" />
+        <option value="$PROJECT_DIR$/js/mercury.js" />
+        <option value="$PROJECT_DIR$/stylesheets/planetmain.css" />
+        <option value="$PROJECT_DIR$/stylesheets/planetmain.scss" />
+        <option value="$PROJECT_DIR$/js/solarSystem.js" />
+        <option value="$PROJECT_DIR$/js/playList.js" />
+        <option value="$PROJECT_DIR$/js/venus.js" />
+        <option value="$PROJECT_DIR$/planet/venus.php" />
+        <option value="$PROJECT_DIR$/planet/footer.php" />
+        <option value="$PROJECT_DIR$/planet/sun.php" />
+        <option value="$PROJECT_DIR$/planet/header.php" />
+        <option value="$PROJECT_DIR$/planet/earth.php" />
+        <option value="$PROJECT_DIR$/planet/jupiter.php" />
+        <option value="$PROJECT_DIR$/planet/mars.php" />
+        <option value="$PROJECT_DIR$/planet/mercury.php" />
+        <option value="$PROJECT_DIR$/planet/neptune.php" />
+        <option value="$PROJECT_DIR$/planet/uranus.php" />
+        <option value="$PROJECT_DIR$/js/saturn.js" />
+        <option value="$PROJECT_DIR$/planet/saturn.php" />
+        <option value="$PROJECT_DIR$/js/uranus.js" />
+        <option value="$PROJECT_DIR$/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/js/milkyWay.js" />
+        <option value="$PROJECT_DIR$/milkyWay.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="951" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="solarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solarSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solarSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solarSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="planet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solarSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solarSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solarSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="planetmain.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\solarSystem\stylesheets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69f73923-7f92-4fae-85f7-7ab7cf721725" name="Default Changelist" comment="" />
+      <created>1581402882381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581402882381</updated>
+      <workItem from="1581402885393" duration="77000" />
+      <workItem from="1581477078787" duration="1843000" />
+      <workItem from="1581486924721" duration="18365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20285000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18031704" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stylesheets/planet-css.css" />
+    <entry file="file://$PROJECT_DIR$/stylesheets/planet-main.css" />
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.scss" />
+    <entry file="file://$PROJECT_DIR$/createDB.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/earth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sun.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jupiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="86" column="70" selection-start-line="86" selection-start-column="70" selection-end-line="86" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mercury.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/planetmain.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/playList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="107" column="50" lean-forward="true" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/venus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="72" column="63" lean-forward="true" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/planetmain.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/venus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/earth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/earth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/jupiter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/mars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/mercury.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/sun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/saturn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="922">
+          <caret line="178" column="56" lean-forward="true" selection-start-line="178" selection-start-column="56" selection-end-line="178" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/saturn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/neptune.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/planet/uranus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/uranus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="172" column="38" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/neptune.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="49" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/solarSystem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="318" column="42" selection-start-line="318" selection-start-column="25" selection-end-line="318" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/milkyWay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solarSystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/milkyWay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

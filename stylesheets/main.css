@@ -81,20 +81,27 @@ div.bar{
     height:100px;
 }
 
-.barControl {margin: 0 auto;}
-.barContro_space {
-    margin: 40px;
-    background:grey;
+.scroll{
     border-radius: 5px;
-    float: right;
+    margin:0 auto;
+    width: 5px;
+    height: 80%;
+    opacity: 0.5;
+    background: white;
+    position: relative;
 }
-
-.windu{
-    border-radius: 2px;
-    display: block;
-    width: 6px;
-    box-shadow:0px 0px 10px 1px #AC85B4, 0 0 1px #AC85B4, 0 0 1px #AC85B4, 0 0 1px #AC85B4, 0 0 1px #AC85B4, 0 0 1px #AC85B4, 0 0 1px #AC85B4;
-    background-color: #fff;
+.scroll:hover{
+    opacity: 0.8;
+}
+.bar{
+    border-radius: 5px;
+    width: 20px;
+    height: 10px;
+    background: grey;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    cursor: pointer;
 }
 
 ::selection {

@@ -15,7 +15,7 @@ Selected.prototype = {
     init: function() {
         //get all songs and add to the playlist
         this.initialList(this);
-        this.audio.volume = 0.4;//µ÷½Ú¿ªÊ¼Ä¬ÈÏÒôÁ¿´óÐ¡£¬0.2¶ÔÓ¦20%
+        this.audio.volume = 0.4;//ï¿½ï¿½ï¿½Ú¿ï¿½Ê¼Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½0.2ï¿½ï¿½Ó¦20%
         var that = this,
             allSongs = this.playlist.children[0].children,
             currentSong, randomSong;
@@ -62,7 +62,7 @@ Selected.prototype = {
         this.audio.addEventListener('ended', function() {
             $("#lianzhu").css("visibility",'hidden');
             $("#player").css("visibility",'hidden');
-            $("#2").css("color",'#999');
+            $("#3").css("color",'#999');
         });
 
 
@@ -100,13 +100,16 @@ Selected.prototype = {
                     fragment = document.createDocumentFragment();
 
                 data.forEach(function(v, i, a) {
-                    var li = document.getElementById('1'),
-                          a = document.getElementById('2');
+                    var liid = "li-"+(i+1);
+                    var aid = "a-"+(i+1);
+                    //console.log(liid)
+                    var li = document.getElementById(liid),
+                          a = document.getElementById(aid);
                     a.href = 'javascript:void(0)';
                     a.dataset.name = v.lrc_name;
                     a.textContent = v.song_name;
-                    li.appendChild(a);
-                    fragment.appendChild(li);
+                    //li.appendChild(a);
+                    //fragment.appendChild(li);
                 });
                 ol.appendChild(fragment);
             }
@@ -193,7 +196,7 @@ Selected.prototype = {
         result.sort(function(a, b) {
             return a[0] - b[0];
         });
-		console.log(result);
+		//console.log(result);
         return result;
     },
     appendLyric: function(lyric) {

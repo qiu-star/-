@@ -129,10 +129,10 @@ function animate(){
     requestAnimationFrame(animate);
 
     //拖拽进度条进入下一个界面
-    //var ptxt = document.getElementById('percent');
-    //var num = parseFloat(ptxt.innerText);
-    //camera.position.z = 90-num*10;
-    //camera.position.y = -155+num*100;
+    var ptxt = document.getElementById('percent');
+    var num = parseFloat(ptxt.innerText);
+    camera.position.z = 90-num*10;
+    camera.position.y = -155+num*100;
 
     renderer.render(scene,camera);
     scene.rotation.z+=.0005;

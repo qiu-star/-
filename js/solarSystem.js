@@ -39,12 +39,6 @@ for(var i = 0 ; i <= 8 ; i++)
     planetImages[i] = img;
 }
 
-
-
-function rtn() {
-    window.location.href="milkyWay.php";
-}
-
 function reset() {
     if(ondisplay)
     {
@@ -97,7 +91,7 @@ function close() {
     reset();
 }
 
-function playVideo(name){
+function playVideof(name){
     var node = "<video src=\"content/videos/"+name+".mp4\"></video>";
     $("#bg").append(node);
     $("video").trigger('play');
@@ -106,8 +100,7 @@ function playVideo(name){
 function riShi() {
     reset();
     displayStatus();
-    playVideo("rishi");
-
+    playVideof("rishi");
     $("#player").css("visibility",'visible');
     ondisplay = true;
 
@@ -151,7 +144,7 @@ function lianZhu(){
     reset();
     displayStatus();
     ifLianZhu = true;
-    playVideo("lianzhu");
+    playVideof("lianzhu");
 
     $("#player").css("visibility",'visible');
     ifHeRi = false;
@@ -337,7 +330,6 @@ function lingRi() {
             // cxt.fillText("太阳",this.width/2-6,this.height/2-6);
 
             //添加鼠标事件
-            this.canvas.addEventListener("mousedown", doMouseDown, false);
             this.canvas.addEventListener('mousemove', doMouseMove, false);
         }
 
@@ -365,22 +357,6 @@ function lingRi() {
             preStr = str;
         }
 
-        //点击后，跳转到介绍页
-        function doMouseDown(event) {
-            var x = event.pageX;
-            var y = event.pageY;
-            var canvas = event.target;
-            var loc = getPointOnCanvas(canvas, x, y);
-
-            var x_ = loc.x - this.width/2;
-            var y_ = loc.y - this.height/2;
-            // console.log("mouse down at point( x:" + x_ + ", y:" + y_ + ")");
-            var str = toJudgePlanet(x_, y_);
-            if(str != null)
-            {
-                window.location.href = str+".php";
-            }
-        }
 
         function toJudgePlanet(x, y) {
             var r2 = x * x + y * y;
@@ -390,7 +366,7 @@ function lingRi() {
                 return "sun";
             }
 
-            if(y > 23.5 || y < -23.5)
+            if(y > 30 || y < -30)
             {
                 return null;
             }
